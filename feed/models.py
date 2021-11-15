@@ -8,5 +8,4 @@ class Post(models.Model):
   image = ImageField()
 
   def __str__(self):
-    return self.text 
-
+    return self.text  
